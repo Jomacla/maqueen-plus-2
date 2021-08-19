@@ -18,6 +18,14 @@ radio.onReceivedString(function (receivedString) {
     }
 })
 radio.setGroup(1)
+basic.showLeds(`
+    . . . . .
+    . # . # .
+    . . # . .
+    # . . . #
+    # # # # #
+    `)
+music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
 basic.forever(function () {
 	
 })
