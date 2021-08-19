@@ -25,7 +25,7 @@ basic.showLeds(`
     # . . . #
     # # # # #
     `)
-music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
+soundExpression.happy.play()
 basic.forever(function () {
 	
 })
